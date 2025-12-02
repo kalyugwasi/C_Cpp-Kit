@@ -35,15 +35,27 @@ VSCode Templates:   {app}\vscode-templates
 
 ## 🚀 Quick Start with VS Code
 
-### First-Time Setup
+### First-Time Setup `for graphics`
 
 1. Open **VS Code**
-2. Open a folder → Select an example project folder
-3. Create a new folder named `.vscode`
-4. Copy `tasks.json` from:
-   ```
-   C:\Program Files\Kalyug C++ Student Kit\vscode-templates\
-   ```
+2. Click on File(top-left corner)
+3. Open a folder → Select Documents
+                 → Open "Kalyug C++ Student Kit
+                 → Click Select Folder 
+5. Check "Trust the authors of all files in the parent folder 'shash'"
+6. Click "Yes, i trust the authors
+7. Open "Examples/circle.cpp"
+8. Install "C/C++ Extensions Pack"
+   (your vscode will prompt you else visit)
+   '''
+   https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack
+   '''
+9. Open "circle.cpp"
+10. Press `Ctrl + Shift + B`
+11. Press `Ctrl + Shift + D`
+12. Choose "Run Graphics C++"
+    `Dont worry it can still  run C`
+13. Press `F5` else  `Fn + F5`
 
 You're ready to build! 🎉
 
