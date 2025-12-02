@@ -35,46 +35,111 @@ VSCode Templates:   {app}\vscode-templates
 
 ## 🚀 Quick Start with VS Code
 
-### First-Time Setup
+### First-Time Setup (Super Easy!)
 
-1. Open **VS Code**
-2. Open a folder → Select an example project folder
-3. Create a new folder named `.vscode`
-4. Copy `tasks.json` from:
-   ```
-   C:\Program Files\Kalyug C++ Student Kit\vscode-templates\
-   ```
+**The `.vscode` folder with all configuration files is already included!** No setup needed.
 
-You're ready to build! 🎉
+#### Step-by-Step:
+
+1. **Open VS Code** on your computer
+
+2. **Open the Project Folder**
+   - Go to: `File` → `Open Folder`
+   - Select the Cpp-Kit project folder
+   - Click `Select Folder`
+
+3. **Trust the Folder**
+   - VS Code will ask "Do you trust the authors of the files in this folder?"
+   - Click `Yes, I trust the authors` ✅
+
+4. **Verify Configuration**
+   - In VS Code's Explorer (left sidebar), you should see `.vscode` folder
+   - This folder contains:
+     - `tasks.json` - Build configuration
+     - `launch.json` - Debug configuration
+   - No need to edit these files!
+
+5. **Ready to Code!** 🎉
+   - Create your `.cpp` file in the project folder
+   - Save it
+   - Press `Ctrl + Shift + B` to build
+   - Your executable will be in `.bin\` folder
+
+> 💡 **Pro Tip:** All configuration is done for you. Just open the folder in VS Code and start coding!
 
 ## 🛠️ Building Your Code
 
-### Using VS Code Tasks
+> 🔥 **This is the most important section!** Follow these steps to compile and run your programs.
 
-In VS Code, you can build using keyboard shortcuts or the task menu:
+### Method 1: Using VS Code Tasks (Recommended) ⭐
 
-| Action | Keyboard Shortcut |
-|--------|-------------------|
-| Show all tasks | `Ctrl + Shift + B` |
-| Show debug config | `Ctrl + Shift + D` |
+**Step 1: Prepare Your Code**
+- Create your C++ file (e.g., `program.cpp`) in your project folder
+- Make sure your code is saved
 
-**Available Build Tasks:**
-- **Build Normal C++** - Compile standard C++ programs
-- **Build Graphics C++** - Compile programs using graphics.h
+**Step 2: Open Task Menu**
+- Press `Ctrl + Shift + B` in VS Code to open the task palette
 
-**Output Location:** `.bin\your_program.exe`
+**Step 3: Choose Your Build Type**
 
-### Command Line
+#### For Programs WITHOUT Graphics
+```
+Select: Build Normal C++
+```
+This compiles standard C++ code using the basic g++ compiler.
 
-#### Standard C++ Program
+#### For Programs WITH Graphics (using graphics.h)
+```
+Select: Build Graphics C++
+```
+This compiles with all necessary graphics libraries:
+- `-lbgi` (BGI graphics library)
+- `-lgdi32` (Windows GDI)
+- `-lcomdlg32` (Common dialogs)
+- `-luuid` (UUID)
+- `-loleaut32` (OLE)
+- `-lole32` (OLE)
+
+**Step 4: Run Your Program**
+- Navigate to `.bin\` folder in your project directory
+- Double-click `your_program.exe` to run it
+- Or open PowerShell/CMD and type: `.\.bin\your_program.exe`
+
+**Step 5: View Output**
+- Your executable appears in: `.bin\your_program.exe`
+- All build output is shown in the VS Code terminal
+
+---
+
+### Method 2: Using Command Line (Advanced)
+
+#### For Standard C++ Programs
 ```bash
-g++ file.cpp -o a.exe
+g++ program.cpp -o program.exe
+./program.exe
 ```
 
-#### Graphics Program
+#### For Graphics Programs
 ```bash
-g++ file.cpp -o a.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+g++ program.cpp -o program.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+./program.exe
 ```
+
+#### Compile with Custom Output Directory
+```bash
+g++ program.cpp -o .bin\program.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+```
+
+---
+
+### Quick Reference Table
+
+| Task | Steps | Time |
+|------|-------|------|
+| **Build Normal C++** | Press `Ctrl + Shift + B` → Select "Build Normal C++" | ~2-5 sec |
+| **Build Graphics C++** | Press `Ctrl + Shift + B` → Select "Build Graphics C++" | ~2-5 sec |
+| **Run Program** | Go to `.bin\` folder → Double-click `.exe` or run in terminal | Instant |
+| **Check Errors** | Look at VS Code terminal output | Real-time |
 
 ## 📚 Example Programs
 
