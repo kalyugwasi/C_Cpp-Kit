@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-1.0-blue.svg)](#)
 [![Maintained by Himanshu](https://img.shields.io/badge/Maintained%20by-Himanshu-brightgreen.svg)](#)
+[![Latest Release](https://img.shields.io/github/v/release/kalyugwasi/Cpp-Kit?style=for-the-badge)](https://github.com/kalyugwasi/Cpp-Kit/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/kalyugwasi/Cpp-Kit/total?style=for-the-badge)](https://github.com/kalyugwasi/Cpp-Kit/releases)
+
 
 A complete C++ development kit for students with everything you need to get started with C++ programming, including graphics support and pre-configured VS Code tasks.
 
