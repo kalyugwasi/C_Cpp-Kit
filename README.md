@@ -55,7 +55,7 @@ VSCode Templates:   {app}\vscode-templates
 
 🎉 You’re ready to build graphics programs!
 
----
+--
 
 ## 🛠️ Building Your Code
 
