@@ -20,7 +20,7 @@
 
 </p>
 
-A complete C++ development kit for students with everything you need to get started with C++ programming, including graphics support and pre-configured VS Code tasks.
+A complete C/C++ development kit for students with everything you need to get started with C/C++ programming, including graphics support and pre-configured VS Code tasks.
 
 ## ✨ Features
 
@@ -71,7 +71,6 @@ VSCode Templates:   {app}\vscode-templates
 
 🎉 You’re ready to build graphics programs!
 
---
 
 ## 🛠️ Building Your Code
 
@@ -130,24 +129,6 @@ g++ file.cpp -o a.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 
 **Solution:** Ensure you're using the "Build Graphics C++" task which includes all necessary library links
 
-## 💡 Tips & Tricks
-
-- Always use "Build Graphics C++" task for programs that include `graphics.h`
-- Keep your source files in the root folder for easy access
-- Output executables appear in `.bin\` directory
-- Use the examples as templates for your own programs
-
-## 📖 About This Kit
-
-This toolkit is designed to help students quickly start with C and C++ programming, with special focus on **Classic Computer Graphics** commonly taught in Indian colleges and universities.
-
-### Philosophy
-
-- 🎓 Educational focus
-- 🔧 Easy setup and configuration
-- 📚 Learning through examples
-- 🎨 Graphics programming support
-
 ## 🤝 Contributing
 
 This project is free to share and improve. We welcome:
@@ -155,6 +136,7 @@ This project is free to share and improve. We welcome:
 - Feature suggestions
 - Code improvements
 - Documentation enhancements
+- Sponsorship
 
 ## 📄 License
 
@@ -165,9 +147,10 @@ This project is open source with no restrictions. Free to use, modify, and distr
 If you encounter issues:
 
 1. Check the **Troubleshooting** section above
-2. Review the example programs
-3. Verify your installation paths
-4. Ensure all PATH variables are properly set
+2. Contact me at `kumarhimanshu2609@gmail.com`
+3. Review the example programs
+4. Verify your installation paths
+5. Ensure all PATH variables are properly set
 
 ---
 
