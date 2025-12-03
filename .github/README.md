@@ -55,7 +55,7 @@ VSCode Templates:   {app}\vscode-templates
 
 ### First-Time Setup (For Graphics)
 
-1. Download Latest release from top of the page
+1. Download Latest release from top of the page (or [click here](https://github.com/kalyugwasi/Cpp-Kit/releases/latest))
 
 ![Release Install](./assets/release_install.gif)
 
