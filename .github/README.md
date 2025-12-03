@@ -70,7 +70,7 @@ VSCode Templates:   {app}\vscode-templates
    → **Yes, I trust the authors**
 8. Open: `Examples/circle.cpp`
 9. Install: **C/C++ Extensions Pack**  
-   *(VS Code will suggest automatically, or use this [link](vscode:extension/ms-vscode.cpptools-extension-pack)*  
+   *(VS Code will suggest automatically, or use this [link](<vscode:extension/ms-vscode.cpptools-extension-pack>)*  
    https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack
 10. Press **Ctrl + Shift + D** → Select **Run Graphics C++**
 
