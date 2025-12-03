@@ -1,10 +1,28 @@
-# Kalyug C++ Student Kit
+# C/C++ Kit
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.0-blue.svg)](#)
-[![Maintained by Himanshu](https://img.shields.io/badge/Maintained%20by-Himanshu-brightgreen.svg)](#)
+<p align="center">
 
-A complete C++ development kit for students with everything you need to get started with C++ programming, including graphics support and pre-configured VS Code tasks.
+  <a href="https://github.com/kalyugwasi/Cpp-Kit/releases/latest">
+    <img src="https://img.shields.io/github/v/release/kalyugwasi/Cpp-Kit?style=for-the-badge" alt="Latest Version">
+  </a>
+
+  <a href="#">
+    <img src="https://img.shields.io/badge/Maintained%20by-Himanshu-brightgreen.svg?style=for-the-badge" alt="Maintained by Himanshu">
+  </a>
+
+  <a href="https://github.com/kalyugwasi/Cpp-Kit/releases/latest">
+    <img src="https://img.shields.io/github/v/release/kalyugwasi/Cpp-Kit?display_name=release&style=for-the-badge" alt="Latest Release">
+  </a>
+
+  <a href="https://github.com/kalyugwasi/Cpp-Kit/releases">
+    <img src="https://img.shields.io/github/downloads/kalyugwasi/Cpp-Kit/total?style=for-the-badge" alt="Total Downloads">
+  </a>
+  <br>
+  <img src="https://api.visitorbadge.io/api/visitors?path=kalyugwasi/Cpp-Kit&countColor=%23263759&style=for-the-badge">
+
+</p>
+
+A complete C/C++ development kit for students with everything you need to get started with C/C++ programming, including graphics support and pre-configured VS Code tasks.
 
 ## ✨ Features
 
@@ -35,111 +53,55 @@ VSCode Templates:   {app}\vscode-templates
 
 ## 🚀 Quick Start with VS Code
 
-### First-Time Setup (Super Easy!)
+### First-Time Setup (For Graphics)
 
-**The `.vscode` folder with all configuration files is already included!** No setup needed.
+1. Download Latest release from top of the page
+2. Install the `.exe` File
+3. Open **VS Code**
+4. Go to **File → Open Folder**
+5. Select:
+   - 📂 `Documents`
+   - 📂 `Kalyug C++ Student Kit`
+6. Click **Select Folder**
+7. If prompted, click:  
+   → **Yes, I trust the authors**
+8. Open: `Examples/circle.cpp`
+9. Install: **C/C++ Extensions Pack**  
+   *(VS Code will suggest automatically, or use this link)*  
+   https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack
+10. Press **Ctrl + Shift + B** → Build
+11. Press **Ctrl + Shift + D** → Select **Run Graphics C++**
+12. Press **F5** (or **Fn + F5**) → Run
 
-#### Step-by-Step:
+🎉 You’re ready to build graphics programs!
 
-1. **Open VS Code** on your computer
-
-2. **Open the Project Folder**
-   - Go to: `File` → `Open Folder`
-   - Select the Cpp-Kit project folder
-   - Click `Select Folder`
-
-3. **Trust the Folder**
-   - VS Code will ask "Do you trust the authors of the files in this folder?"
-   - Click `Yes, I trust the authors` ✅
-
-4. **Verify Configuration**
-   - In VS Code's Explorer (left sidebar), you should see `.vscode` folder
-   - This folder contains:
-     - `tasks.json` - Build configuration
-     - `launch.json` - Debug configuration
-   - No need to edit these files!
-
-5. **Ready to Code!** 🎉
-   - Create your `.cpp` file in the project folder
-   - Save it
-   - Press `Ctrl + Shift + B` to build
-   - Your executable will be in `.bin\` folder
-
-> 💡 **Pro Tip:** All configuration is done for you. Just open the folder in VS Code and start coding!
 
 ## 🛠️ Building Your Code
 
-> 🔥 **This is the most important section!** Follow these steps to compile and run your programs.
+### Using VS Code Tasks
 
-### Method 1: Using VS Code Tasks (Recommended) ⭐
+| Task | Shortcut |
+|------|----------|
+| Show all build tasks | `Ctrl + Shift + B` |
+| Show debug configuration | `Ctrl + Shift + D` |
 
-**Step 1: Prepare Your Code**
-- Create your C++ file (e.g., `program.cpp`) in your project folder
-- Make sure your code is saved
+**Available Tasks**
+- **Build Normal C++** → Standard console apps
+- **Build Graphics C++** → Programs using `graphics.h`
 
-**Step 2: Open Task Menu**
-- Press `Ctrl + Shift + B` in VS Code to open the task palette
+**Output Location:** `.bin\your_program.exe`
 
-**Step 3: Choose Your Build Type**
+### Command Line
 
-#### For Programs WITHOUT Graphics
-```
-Select: Build Normal C++
-```
-This compiles standard C++ code using the basic g++ compiler.
-
-#### For Programs WITH Graphics (using graphics.h)
-```
-Select: Build Graphics C++
-```
-This compiles with all necessary graphics libraries:
-- `-lbgi` (BGI graphics library)
-- `-lgdi32` (Windows GDI)
-- `-lcomdlg32` (Common dialogs)
-- `-luuid` (UUID)
-- `-loleaut32` (OLE)
-- `-lole32` (OLE)
-
-**Step 4: Run Your Program**
-- Navigate to `.bin\` folder in your project directory
-- Double-click `your_program.exe` to run it
-- Or open PowerShell/CMD and type: `.\.bin\your_program.exe`
-
-**Step 5: View Output**
-- Your executable appears in: `.bin\your_program.exe`
-- All build output is shown in the VS Code terminal
-
----
-
-### Method 2: Using Command Line (Advanced)
-
-#### For Standard C++ Programs
+#### Standard C++ Program
 ```bash
-g++ program.cpp -o program.exe
-./program.exe
+g++ file.cpp -o a.exe
 ```
 
-#### For Graphics Programs
+#### Graphics Program
 ```bash
-g++ program.cpp -o program.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
-./program.exe
+g++ file.cpp -o a.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 ```
-
-#### Compile with Custom Output Directory
-```bash
-g++ program.cpp -o .bin\program.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
-```
-
----
-
-### Quick Reference Table
-
-| Task | Steps | Time |
-|------|-------|------|
-| **Build Normal C++** | Press `Ctrl + Shift + B` → Select "Build Normal C++" | ~2-5 sec |
-| **Build Graphics C++** | Press `Ctrl + Shift + B` → Select "Build Graphics C++" | ~2-5 sec |
-| **Run Program** | Go to `.bin\` folder → Double-click `.exe` or run in terminal | Instant |
-| **Check Errors** | Look at VS Code terminal output | Real-time |
 
 ## 📚 Example Programs
 
@@ -171,24 +133,6 @@ g++ program.cpp -o .bin\program.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -
 
 **Solution:** Ensure you're using the "Build Graphics C++" task which includes all necessary library links
 
-## 💡 Tips & Tricks
-
-- Always use "Build Graphics C++" task for programs that include `graphics.h`
-- Keep your source files in the root folder for easy access
-- Output executables appear in `.bin\` directory
-- Use the examples as templates for your own programs
-
-## 📖 About This Kit
-
-This toolkit is designed to help students quickly start with C and C++ programming, with special focus on **Classic Computer Graphics** commonly taught in Indian colleges and universities.
-
-### Philosophy
-
-- 🎓 Educational focus
-- 🔧 Easy setup and configuration
-- 📚 Learning through examples
-- 🎨 Graphics programming support
-
 ## 🤝 Contributing
 
 This project is free to share and improve. We welcome:
@@ -196,6 +140,7 @@ This project is free to share and improve. We welcome:
 - Feature suggestions
 - Code improvements
 - Documentation enhancements
+- Sponsorship
 
 ## 📄 License
 
@@ -206,9 +151,10 @@ This project is open source with no restrictions. Free to use, modify, and distr
 If you encounter issues:
 
 1. Check the **Troubleshooting** section above
-2. Review the example programs
-3. Verify your installation paths
-4. Ensure all PATH variables are properly set
+2. Contact me at <kumarhimanshu2609@gmail.com>
+3. Review the example programs
+4. Verify your installation paths
+5. Ensure all PATH variables are properly set
 
 ---
 
