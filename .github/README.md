@@ -56,6 +56,7 @@ VSCode Templates:   {app}\vscode-templates
 ### First-Time Setup (For Graphics)
 
 1. Download Latest release from top of the page
+![Release Install](https://raw.githubusercontent.com/kalyugwasi/Cpp-Kit/main/.github/assets/release_install.gif)
 2. Install the `.exe` File
 3. Open **VS Code**
 4. Go to **File → Open Folder**
