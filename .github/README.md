@@ -151,6 +151,16 @@ g++ file.cpp -o a.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 **Cause:** Graphics.h requires specific Windows libraries
 
 **Solution:** Ensure you're using the "Build Graphics C++" task which includes all necessary library links
+
+### File Compilation error
+
+**Cause:** 
+```
+Expected:      %USERPROFILE%\Documents\Kalyug C++ Student Kit\Examples
+Acutal:        %USERPROFILE%\onedrive\Documents\Kalyug C++ Student Kit\Examples 
+```
+
+**Solution:** Change the location of the file "Kalyug C++ Student Kit" to expected location
 <br><br>
 ## 🤝 Contributing
 
