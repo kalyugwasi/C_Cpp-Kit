@@ -182,6 +182,3 @@ If you encounter issues:
 5. Ensure all PATH variables are properly set
 
 #
-**Happy Coding!** 😎🔥
-
-Made with ❤️ by Himanshu
