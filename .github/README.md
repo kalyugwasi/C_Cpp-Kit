@@ -1,4 +1,4 @@
-# C/C++ Kit
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="40" height="40" />C/C++ Kit
 
 A complete C/C++ development kit with everything you need to get started with C/C++ programming, including graphics support and pre-configured VS Code tasks.
 <br><br>
@@ -43,7 +43,7 @@ VSCode Templates:   {app}\vscode-templates
 > **Important:** After installation, open a new terminal or restart your PC to update PATH environment variables.
 
 <br><br>
-## 🚀 Quick Start with VS Code
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="40" height="40" /> Quick Start with VS Code
 
 ### First-Time Setup (For Graphics)
 
@@ -70,7 +70,7 @@ VSCode Templates:   {app}\vscode-templates
 11. Press **Ctrl + Shift + B** → Built
 12. Press **F5** (or **Fn + F5**) → Run
 
-🎉 You’re ready to build graphics programs!
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party" width="25" height="25" /> You’re ready to build graphics programs! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party" width="25" height="25" />
 
 <br><br>
 ## 🛠️ Building Your Code
@@ -89,7 +89,7 @@ VSCode Templates:   {app}\vscode-templates
 **Output Location:** `.bin\your_program.exe`
 
 <br><br>
-## ✨ Features
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Star" width="30" height="30" /> Features
 
 - ✅ MinGW-w64 C++ Compiler (64-bit)
 - ✅ `graphics.h` + `winbgim.h` (WinBGIm library)
@@ -98,7 +98,7 @@ VSCode Templates:   {app}\vscode-templates
 - ✅ Pre-configured Build tasks for VS Code
 
 <br><br>
-## 📦 What's Included
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /> What's Included
 
 | Component | Description |
 |-----------|-------------|
@@ -130,7 +130,7 @@ g++ file.cpp -o a.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 | `rectangle.cpp` | Graphics | Draws a rectangle using graphics.h |
 
 <br><br>
-## 🐛 Troubleshooting
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bug.png" alt="Bug" width="35" height="35" /> Troubleshooting
 
 ### Error: 'initgraph' or 'circle' undefined
 
@@ -162,7 +162,7 @@ Acutal:        %USERPROFILE%\onedrive\Documents\Kalyug C++ Student Kit\Examples
 
 **Solution:** Change the location of the file "Kalyug C++ Student Kit" to expected location
 <br><br>
-## 🤝 Contributing
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="35" height="35" /> Contributing
 
 This project is free to share and improve. We welcome:
 - Bug reports
@@ -182,3 +182,5 @@ If you encounter issues:
 5. Ensure all PATH variables are properly set
 
 #
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" alt="Love and Passion" width="25" height="25" />
