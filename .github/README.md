@@ -184,3 +184,79 @@ If you encounter issues:
 #
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" alt="Love and Passion" width="25" height="25" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="C/C++ Development Kit - Complete Programming Setup with MinGW-w64, Graphics.h & VS Code">
+<meta name="description" content="Free comprehensive C/C++ Development Kit featuring MinGW-w64 GCC 15.2.0 compiler, WinBGIm graphics library (graphics.h), pre-configured VS Code tasks, and example programs. Perfect for students, beginners, and educators. Zero configuration required - download and start coding in minutes!">
+<meta name="keywords" content="C++ development kit, C++ compiler, MinGW-w64, GCC compiler, graphics.h, WinBGIm, winbgim.h, libbgi, Visual Studio Code C++, VS Code C++ setup, C++ graphics programming, beginner C++, learn C++, C++ tutorial, C++ IDE, C++ examples, C++ for students, Windows C++ compiler, C++ programming tutorial, free C++ compiler, C++ development environment, C++ graphics library, C++ starter kit, C++ installation guide, computer graphics C++, BGI graphics, Turbo C++ alternative, modern C++ setup, C++ education, programming for beginners">
+<meta name="author" content="Himanshu Kumar">
+<meta name="creator" content="Himanshu Kumar">
+<meta name="publisher" content="Kalyug C++ Student Kit">
+<meta name="copyright" content="© 2024 C/C++ Development Kit - Apache 2.0 License">
+<meta name="license" content="Apache License 2.0">
+<meta name="distribution" content="global">
+<meta name="rating" content="general">
+<meta name="target" content="students, educators, beginners, programmers, developers">
+<meta name="classification" content="Software Development, Programming Tools, Education">
+<!-- Detailed Description for Search Engines -->
+<meta name="abstract" content="Complete C/C++ development environment with MinGW-w64 compiler, graphics programming support, and Visual Studio Code integration. Includes WinBGIm library for graphics.h functionality, example programs, and ready-to-use build configurations.">
+<meta name="summary" content="All-in-one C/C++ programming kit with compiler, graphics library, IDE setup, and tutorials. Free, open-source, and beginner-friendly.">
+<meta name="subject" content="C++ Programming, Software Development, Computer Graphics, Educational Tools">
+<meta name="topic" content="C++ Development, Programming Education, Graphics Programming, IDE Configuration">
+<!-- Open Graph / Facebook Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="C/C++ Development Kit">
+<meta property="og:title" content="C/C++ Development Kit - Complete Programming Setup with MinGW-w64 & Graphics Support">
+<meta property="og:description" content="Everything you need for C/C++ programming: MinGW-w64 GCC 15.2.0 compiler, WinBGIm graphics library (graphics.h), VS Code tasks, example programs, and comprehensive documentation. Zero configuration - start coding immediately!">
+<meta property="og:url" content="https://github.com/kalyugwasi/Cpp-Kit">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://raw.githubusercontent.com/kalyugwasi/Cpp-Kit/main/assets/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="C/C++ Development Kit Preview - Compiler, Graphics Library, and VS Code Integration">
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@kalyugwasi">
+<meta name="twitter:creator" content="@kalyugwasi">
+<meta name="twitter:title" content="C/C++ Development Kit - Complete Programming Setup">
+<meta name="twitter:description" content="Free C/C++ programming kit with MinGW-w64 compiler, graphics.h support, VS Code integration, and example programs. Perfect for beginners and students!">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/kalyugwasi/Cpp-Kit/main/assets/preview.png">
+<meta name="twitter:image:alt" content="C/C++ Development Kit - All-in-one programming solution">
+<!-- GitHub Specific Meta Tags -->
+<meta name="github:repository" content="kalyugwasi/Cpp-Kit">
+<meta name="github:language" content="C++">
+<meta name="github:topics" content="cpp, mingw, graphics, winbgim, vscode, compiler, education, beginner-friendly">
+<!-- Search Engine Directives -->
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<!-- Geographic & Language Meta Tags -->
+<meta name="language" content="English">
+<meta name="geo.region" content="WORLDWIDE">
+<meta name="geo.placename" content="Global">
+<meta name="content-language" content="en">
+<!-- Refresh & Revisit Instructions -->
+<meta name="revisit-after" content="7 days">
+<meta http-equiv="refresh" content="604800">
+<!-- Content Classification -->
+<meta name="category" content="Software Development, Programming, Computer Science, Education, Tools">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="audience" content="Students, Educators, Beginners, Programmers, Computer Science Students, Software Developers">
+<!-- Software/Application Specific Meta Tags -->
+<meta name="application-name" content="C/C++ Development Kit">
+<meta name="software.version" content="Latest">
+<meta name="software.developer" content="Himanshu Kumar">
+<meta name="software.language" content="C++, C">
+<meta name="software.platform" content="Windows">
+<meta name="software.requirements" content="Windows 7/8/10/11, Visual Studio Code (Optional)">
+<!-- Educational Context -->
+<meta name="education.level" content="Beginner, Intermediate, Student">
+<meta name="education.subject" content="Computer Science, Programming, Software Development">
+<meta name="education.curriculum" content="C++ Programming, Computer Graphics, Software Engineering">
+<!-- Technical Specifications -->
+<meta name="tech.compiler" content="MinGW-w64 GCC 15.2.0">
+<meta name="tech.graphics" content="WinBGIm, graphics.h, libbgi">
+<meta name="tech.ide" content="Visual Studio Code">
+<meta name="tech.platform" content="Windows 64-bit">
