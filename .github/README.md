@@ -176,10 +176,10 @@ This project is free to share and improve. We welcome:
 If you encounter issues:
 
 1. Check the **Troubleshooting** section above
-2. Contact me at <kumarhimanshu2609@gmail.com>
-3. Review the example programs
-4. Verify your installation paths
-5. Ensure all PATH variables are properly set
+2. Review the example programs
+3. Verify your installation paths
+4. Ensure all PATH variables are properly set
+5. Contact me at <kumarhimanshu2609@gmail.com>
 
 #
 
